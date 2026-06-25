@@ -4,7 +4,7 @@ A Change Data Capture (CDC) pipeline that processes Kaggle datasets locally, upl
 
 ## Overview
 
-This project implements an end-to-end data engineering pipeline:
+This project implements an data engineering pipeline from dataset import to bronze layer on databricks:
 
 1. **Data Ingestion**: Fetches datasets from Kaggle API
 2. **Local Processing**: Converts raw data to Parquet format using DuckDB/Python
