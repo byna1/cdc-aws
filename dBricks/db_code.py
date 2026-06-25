@@ -51,5 +51,3 @@ bronze = delta.DeltaTable.forName(spark,f'{catalog}.{schema}.{table_name}')
     .whenNotMatchedInsertAll(condition = "d.op = 'I' OR d.op = 'U'")
     .execute() 
     )
-
-    
